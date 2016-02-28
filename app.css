@@ -51,6 +51,9 @@
   padding-left: 10px;
   font-size: 13px;
 }
+/*.form-group{*/
+  /*margin-bottom: 0;*/
+/*}*/
 ul{
   list-style-type:none;
   padding: 0;

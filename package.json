@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Slack Clone with React and Go",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "fecha": "^1.2.2"
+  },
   "devDependencies": {
     "babel-core": "^5.8.35",
     "babel-loader": "^5.3.3",
