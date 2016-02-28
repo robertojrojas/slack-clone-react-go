@@ -7,7 +7,7 @@ class ChannelSection extends Component {
         return (
             <div className='support panel panel-primary'>
                 <div className='panel-heading'>
-                    <strong>Channel</strong>
+                    <strong>Channels</strong>
                 </div>
                 <div className='panel-body channels'>
                     <ChannelList {...this.props}/>
