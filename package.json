@@ -1,0 +1,29 @@
+{
+  "name": "slack-clone-react-go",
+  "version": "1.0.0",
+  "description": "Slack Clone with React and Go",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertojrojas/slack-clone-react-go.git"
+  },
+  "keywords": [
+    "React",
+    "Go"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertojrojas/slack-clone-react-go/issues"
+  },
+  "homepage": "https://github.com/robertojrojas/slack-clone-react-go#readme"
+}
