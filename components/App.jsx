@@ -17,25 +17,10 @@ class App extends Component {
 
     componentDidMount() {
         let ws = this.ws = new WebSocket('ws://echo.websocket.org');
-        ws.onmessage = this.onMessage.bind(this);
-        ws.onopen = this.onOpen.bind(this);
-        ws.onclose = this.onClose.bind(this);
+
     }
 
-    onMessage(e) {
-        const event = JSON.parse(e.data);
-        if (event.name === 'channel add') {
-            this.newChannel(event.data);
-        }
-    }
 
-    onOpen() {
-        this.setState({connected: true});
-    }
-
-    onClose() {
-        this.setState({false: true});
-    }
 
     newChannel(channel) {
         let {channels} = this.state;
